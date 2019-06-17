@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import PDFNet
+import Tools
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //  Initialize PDFNet
+        PTPDFNet.initialize("PadInMotion, Inc.(padinmotion.com):OEM:PadInMotion::IA:AMS(20190820):EB6786B01FC7A4D00333FD7860611FF597103A737454967B4472937D529231F5C7")
         return true
     }
 

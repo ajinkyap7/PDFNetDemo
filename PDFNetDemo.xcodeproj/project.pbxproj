@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222EB95EDBA6D423126CA9C5 /* Pods_PDFNetDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A900001A6D7CFD999EF4D2 /* Pods_PDFNetDemo.framework */; };
+		651F9FCDE8F7FF40DC77043E /* Pods_PDFNetDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF0093A406C067091C8298E /* Pods_PDFNetDemoUITests.framework */; };
 		B862EA1122B77B82008E0281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862EA1022B77B82008E0281 /* AppDelegate.swift */; };
 		B862EA1322B77B82008E0281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862EA1222B77B82008E0281 /* ViewController.swift */; };
 		B862EA1622B77B82008E0281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B862EA1422B77B82008E0281 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		B862EA1B22B77B83008E0281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B862EA1922B77B83008E0281 /* LaunchScreen.storyboard */; };
 		B862EA2622B77B84008E0281 /* PDFNetDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862EA2522B77B84008E0281 /* PDFNetDemoTests.swift */; };
 		B862EA3122B77B84008E0281 /* PDFNetDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862EA3022B77B84008E0281 /* PDFNetDemoUITests.swift */; };
+		B862EA3F22B77FE2008E0281 /* test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B862EA3E22B77FE2008E0281 /* test.pdf */; };
+		BF236F8EE1BACD6E34160A0B /* Pods_PDFNetDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE421C58FA843675FAC4249 /* Pods_PDFNetDemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CF0093A406C067091C8298E /* Pods_PDFNetDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDFNetDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EE421C58FA843675FAC4249 /* Pods_PDFNetDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDFNetDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5136B1C8DA6EF7646A988759 /* Pods-PDFNetDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFNetDemo.debug.xcconfig"; path = "Target Support Files/Pods-PDFNetDemo/Pods-PDFNetDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		58A4FFEE4721D476385D718C /* Pods-PDFNetDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFNetDemoTests.release.xcconfig"; path = "Target Support Files/Pods-PDFNetDemoTests/Pods-PDFNetDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		75AA8A62524E64B29AEBAD35 /* Pods-PDFNetDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFNetDemo.release.xcconfig"; path = "Target Support Files/Pods-PDFNetDemo/Pods-PDFNetDemo.release.xcconfig"; sourceTree = "<group>"; };
+		81A900001A6D7CFD999EF4D2 /* Pods_PDFNetDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDFNetDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		999471C344AA9343830307B9 /* Pods-PDFNetDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFNetDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-PDFNetDemoUITests/Pods-PDFNetDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B862EA0D22B77B82008E0281 /* PDFNetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFNetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B862EA1022B77B82008E0281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B862EA1222B77B82008E0281 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,9 @@
 		B862EA2C22B77B84008E0281 /* PDFNetDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFNetDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B862EA3022B77B84008E0281 /* PDFNetDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFNetDemoUITests.swift; sourceTree = "<group>"; };
 		B862EA3222B77B84008E0281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B862EA3E22B77FE2008E0281 /* test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = test.pdf; sourceTree = "<group>"; };
+		C331862AF899D00E455B04E1 /* Pods-PDFNetDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFNetDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-PDFNetDemoUITests/Pods-PDFNetDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E4F553D108008222C2A78643 /* Pods-PDFNetDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFNetDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-PDFNetDemoTests/Pods-PDFNetDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222EB95EDBA6D423126CA9C5 /* Pods_PDFNetDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF236F8EE1BACD6E34160A0B /* Pods_PDFNetDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				651F9FCDE8F7FF40DC77043E /* Pods_PDFNetDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A7F8BFC8CCE4E26EC4D0052 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5136B1C8DA6EF7646A988759 /* Pods-PDFNetDemo.debug.xcconfig */,
+				75AA8A62524E64B29AEBAD35 /* Pods-PDFNetDemo.release.xcconfig */,
+				E4F553D108008222C2A78643 /* Pods-PDFNetDemoTests.debug.xcconfig */,
+				58A4FFEE4721D476385D718C /* Pods-PDFNetDemoTests.release.xcconfig */,
+				999471C344AA9343830307B9 /* Pods-PDFNetDemoUITests.debug.xcconfig */,
+				C331862AF899D00E455B04E1 /* Pods-PDFNetDemoUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3DAFA7ED32A29B6172702789 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81A900001A6D7CFD999EF4D2 /* Pods_PDFNetDemo.framework */,
+				0EE421C58FA843675FAC4249 /* Pods_PDFNetDemoTests.framework */,
+				0CF0093A406C067091C8298E /* Pods_PDFNetDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B862EA0422B77B82008E0281 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				B862EA2422B77B84008E0281 /* PDFNetDemoTests */,
 				B862EA2F22B77B84008E0281 /* PDFNetDemoUITests */,
 				B862EA0E22B77B82008E0281 /* Products */,
+				2A7F8BFC8CCE4E26EC4D0052 /* Pods */,
+				3DAFA7ED32A29B6172702789 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +145,7 @@
 				B862EA1722B77B83008E0281 /* Assets.xcassets */,
 				B862EA1922B77B83008E0281 /* LaunchScreen.storyboard */,
 				B862EA1C22B77B83008E0281 /* Info.plist */,
+				B862EA3E22B77FE2008E0281 /* test.pdf */,
 			);
 			path = PDFNetDemo;
 			sourceTree = "<group>";
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B862EA3522B77B84008E0281 /* Build configuration list for PBXNativeTarget "PDFNetDemo" */;
 			buildPhases = (
+				BE84E464075A603FC0E3AE79 /* [CP] Check Pods Manifest.lock */,
 				B862EA0922B77B82008E0281 /* Sources */,
 				B862EA0A22B77B82008E0281 /* Frameworks */,
 				B862EA0B22B77B82008E0281 /* Resources */,
+				834B163F3646A0FAE04CFF0E /* [CP] Embed Pods Frameworks */,
+				9B1FD7A62F892A960A26D5C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B862EA3822B77B84008E0281 /* Build configuration list for PBXNativeTarget "PDFNetDemoTests" */;
 			buildPhases = (
+				EAEC53CD41C1AB8D991F20DA /* [CP] Check Pods Manifest.lock */,
 				B862EA1D22B77B84008E0281 /* Sources */,
 				B862EA1E22B77B84008E0281 /* Frameworks */,
 				B862EA1F22B77B84008E0281 /* Resources */,
@@ -167,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B862EA3B22B77B84008E0281 /* Build configuration list for PBXNativeTarget "PDFNetDemoUITests" */;
 			buildPhases = (
+				F2BA7C1DC85A6D8C6AB777C1 /* [CP] Check Pods Manifest.lock */,
 				B862EA2822B77B84008E0281 /* Sources */,
 				B862EA2922B77B84008E0281 /* Frameworks */,
 				B862EA2A22B77B84008E0281 /* Resources */,
@@ -229,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B862EA3F22B77FE2008E0281 /* test.pdf in Resources */,
 				B862EA1B22B77B83008E0281 /* LaunchScreen.storyboard in Resources */,
 				B862EA1822B77B83008E0281 /* Assets.xcassets in Resources */,
 				B862EA1622B77B82008E0281 /* Main.storyboard in Resources */,
@@ -250,6 +299,121 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		834B163F3646A0FAE04CFF0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PDFNetDemo/Pods-PDFNetDemo-frameworks.sh",
+				"${PODS_ROOT}/PDFNet/PDFNet.framework",
+				"${PODS_ROOT}/PDFNet/Tools.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PDFNet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Tools.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PDFNetDemo/Pods-PDFNetDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B1FD7A62F892A960A26D5C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PDFNetDemo/Pods-PDFNetDemo-resources.sh",
+				"${PODS_ROOT}/PDFNet/Tools-Localization",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools-Localization",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PDFNetDemo/Pods-PDFNetDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE84E464075A603FC0E3AE79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PDFNetDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAEC53CD41C1AB8D991F20DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PDFNetDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2BA7C1DC85A6D8C6AB777C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PDFNetDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B862EA0922B77B82008E0281 /* Sources */ = {
@@ -430,10 +594,11 @@
 		};
 		B862EA3622B77B84008E0281 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5136B1C8DA6EF7646A988759 /* Pods-PDFNetDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 67J46ULSC9;
+				DEVELOPMENT_TEAM = 372K89BGJK;
 				INFOPLIST_FILE = PDFNetDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,10 +613,11 @@
 		};
 		B862EA3722B77B84008E0281 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75AA8A62524E64B29AEBAD35 /* Pods-PDFNetDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 67J46ULSC9;
+				DEVELOPMENT_TEAM = 372K89BGJK;
 				INFOPLIST_FILE = PDFNetDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,6 +632,7 @@
 		};
 		B862EA3922B77B84008E0281 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F553D108008222C2A78643 /* Pods-PDFNetDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +654,7 @@
 		};
 		B862EA3A22B77B84008E0281 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58A4FFEE4721D476385D718C /* Pods-PDFNetDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +676,7 @@
 		};
 		B862EA3C22B77B84008E0281 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 999471C344AA9343830307B9 /* Pods-PDFNetDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +697,7 @@
 		};
 		B862EA3D22B77B84008E0281 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C331862AF899D00E455B04E1 /* Pods-PDFNetDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
