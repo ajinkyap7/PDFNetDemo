@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        //  Initialize PDFNet
+        //  Initialize PDFNet with PDF_NET_KEY (Enter your key instead of PDF_NET_KEY
         PTPDFNet.initialize(PDF_NET_KEY)
         return true
     }
