@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         //  Initialize PDFNet
-        PTPDFNet.initialize("PadInMotion, Inc.(padinmotion.com):OEM:PadInMotion::IA:AMS(20190820):EB6786B01FC7A4D00333FD7860611FF597103A737454967B4472937D529231F5C7")
+        PTPDFNet.initialize(PDF_NET_KEY)
         return true
     }
 

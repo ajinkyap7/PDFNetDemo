@@ -17,6 +17,7 @@
 		B862EA2622B77B84008E0281 /* PDFNetDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862EA2522B77B84008E0281 /* PDFNetDemoTests.swift */; };
 		B862EA3122B77B84008E0281 /* PDFNetDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862EA3022B77B84008E0281 /* PDFNetDemoUITests.swift */; };
 		B862EA3F22B77FE2008E0281 /* test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B862EA3E22B77FE2008E0281 /* test.pdf */; };
+		B862EA4122B793A5008E0281 /* PDFNetKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862EA4022B793A5008E0281 /* PDFNetKey.swift */; };
 		BF236F8EE1BACD6E34160A0B /* Pods_PDFNetDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE421C58FA843675FAC4249 /* Pods_PDFNetDemoTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		B862EA3022B77B84008E0281 /* PDFNetDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFNetDemoUITests.swift; sourceTree = "<group>"; };
 		B862EA3222B77B84008E0281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B862EA3E22B77FE2008E0281 /* test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = test.pdf; sourceTree = "<group>"; };
+		B862EA4022B793A5008E0281 /* PDFNetKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFNetKey.swift; sourceTree = "<group>"; };
 		C331862AF899D00E455B04E1 /* Pods-PDFNetDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFNetDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-PDFNetDemoUITests/Pods-PDFNetDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E4F553D108008222C2A78643 /* Pods-PDFNetDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFNetDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-PDFNetDemoTests/Pods-PDFNetDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,6 +143,7 @@
 			children = (
 				B862EA1022B77B82008E0281 /* AppDelegate.swift */,
 				B862EA1222B77B82008E0281 /* ViewController.swift */,
+				B862EA4022B793A5008E0281 /* PDFNetKey.swift */,
 				B862EA1422B77B82008E0281 /* Main.storyboard */,
 				B862EA1722B77B83008E0281 /* Assets.xcassets */,
 				B862EA1922B77B83008E0281 /* LaunchScreen.storyboard */,
@@ -422,6 +425,7 @@
 			files = (
 				B862EA1322B77B82008E0281 /* ViewController.swift in Sources */,
 				B862EA1122B77B82008E0281 /* AppDelegate.swift in Sources */,
+				B862EA4122B793A5008E0281 /* PDFNetKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
