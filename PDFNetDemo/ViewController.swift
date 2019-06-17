@@ -31,16 +31,14 @@ class ViewController: UIViewController, PTDocumentViewControllerDelegate, PTAnno
         documentController.delegate = self
         documentController.annotationToolbar.delegate = self
         
-        //  Initialize PTPDFViewCtrl object
-        var pdfViewController: PTPDFViewCtrl
-        pdfViewController = documentController.pdfViewCtrl
+        //  Initialize PDFDoc object
         let pdfDoc = documentController.pdfViewCtrl.getDoc()
         if pdfDoc != nil {
             print("PDF Doc Found")
         }
         print("PDF Document: \(String(describing: documentController.pdfViewCtrl.getDoc()))")
         
-        deleteAllAnnotations(pdfViewCtrl: pdfViewController)
+        //deleteAllAnnotations(pdfViewCtrl: pdfViewController)
         
         // Open an existing local file URL.
         if let fileURL = Bundle.main.url(forResource: "test", withExtension: "pdf") {
@@ -53,6 +51,15 @@ class ViewController: UIViewController, PTDocumentViewControllerDelegate, PTAnno
         } else {
             print("Error Occured")
         }
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        //super.viewWillDisappear(true)
+        if (self.isMovingFromParent || self.isBeingDismissed) {
+            //  Handle Back Button Action
+            deleteAllAnnotations(pdfViewCtrl: documentController.pdfViewCtrl)
+        }
+        
     }
 
     @IBAction func buttonAnnotationTapped(_ sender: UIBarButtonItem) {
